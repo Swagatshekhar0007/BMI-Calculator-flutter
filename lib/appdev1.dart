@@ -119,7 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: RaisedButton(
                 color: Colors.indigoAccent[700], // background
                 textColor: Colors.white, // foreground
-                splashColor: Colors.black87,
+                //splashColor: Colors.black87,
                 onPressed: () {
                   calculate(double.parse(heightController.text),
                       double.parse(weightController.text), gender);
